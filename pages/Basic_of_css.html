@@ -1,0 +1,383 @@
+<a href="https://vikipretium.github.io/freecodecamp/index.html"><h1>Freecodecamp</h1></a>
+
+<h3>1. change text color</h3>
+<h2 style = "color: green;">Text color chaged to <h2 style = "color: red;">RED</h2></h2>
+
+<h3>2. css selector to style elements</h3>
+<style>
+h2 {
+    color: yellow;
+}
+</style>
+<h2>style element color changed</h2>
+
+<h3>3. css class to style an element</h3>
+<style>
+.green-text {
+    color: green;
+}
+</style>
+<h3 class = "green-text">green-text class color changed</h3>
+
+<h3>4.Multiple elements with css class</h3>
+<h3 class=green-text>changed another tag with same green-text class</h3>
+
+<h3>5.font size change</h3>
+<style>
+.font-size {
+    font-size: 30px;
+}
+</style>
+<p class = "font-size">text size is 30px</p>
+
+<h3>6.font family</h3>
+
+<style>
+.font-mono{
+    font-family: monospace;
+}
+.font-san{
+    font-family: sans-serif;
+}
+</style>
+<p class="font-mono"> monospace font </p>
+<p class="font-san"> sans-serif font </p>
+
+<h3>7.import google font</h3>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+.lobster{
+    color: magenta;
+    font-size: 20px;
+    font-family: Lobster;
+}
+</style>
+<h3 class = "lobster">google font Lobster</h3>
+
+<h3>8.font degrade or alternate font</h3>
+<style>
+.font-alt{
+    font-family: Lobster, monospace;
+}
+</style>
+<p class="font-alt">alternate fonts lobster and monospace</p>
+
+<h3>9.size images</h3>
+<style>
+.larger-image{
+    width: 100px;
+}
+</style>
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google_logo">
+<p>orignal image</p>
+<img class="larger-image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google_logo">
+<p>image resized using class and width to 300px</p>
+
+<h3>10.adding borders using mulitple classes</h3>
+<style>.thick-border{
+border-color: yellow;
+border-width: 10px;
+border-style: solid;
+}</style>
+<img class="larger-image thick-border" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google_logo">
+<p>applied muliple classes for size and border-color</p>
+
+<h3>11.round corners with border-radius</h3>
+<style>.thick-border-radius{
+border-color: yellow;
+border-width: 10px;
+border-style: solid;
+border-radius: 10px;
+}</style>
+<img class="larger-image thick-border-radius" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google_logo">
+<p>border radius modified using border-radius</p>
+
+<h3>12.circular images using border radius</h3>
+<style>
+.border-radius-percentage{
+    width: 10%;
+    border-color: blue;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+}
+</style>
+<img class=" border-radius-percentage" src="http://1.bp.blogspot.com/-5pxpuOUafQk/VIb7KbKNboI/AAAAAAAAF2Y/DSZPS77a8M8/s1600/Ki_oone.png" alt="image">
+
+<h3>Background color for div element</h3>
+<style>
+.orange-bg{
+    Background-color: orange;
+    width: 100px;
+    height: 100px;
+}
+</style>
+<div class="orange-bg">
+<p>Divison bg orange</p>
+</div>
+
+<h3>13.set id of an element</h3>
+<h4 id = "id-init"> h4 tag id is id-test</h4>
+
+<h3>14. using id in style</h3>
+<style>
+#id-used{
+    Background-color: green;
+    width: 30%;
+}
+</style>
+<div id="id-used"> 
+<p>Elit error eos neque deserunt distinctio officia? Neque magni placeat aut rerum ullam Quisquam doloribus eos quae reiciendis magni delectus Consequuntur minus aperiam quaerat maxime repellendus Quae maxime id aliquam</p>
+<p>Elit error eos neque deserunt distinctio officia? Neque magni placeat aut rerum ullam Quisquam doloribus eos quae reiciendis magni delectus Consequuntur minus aperiam quaerat maxime repellendus Quae maxime id aliquam</p>
+</div>
+
+<h3>15.Adjust padding of an element</h3>
+
+<style>
+.divpadding
+{
+Background-color:blue;
+padding: 20px;
+width: 200px;
+text-align: center;
+}
+
+.padding1
+{
+Background-color: white;
+padding: 10px;
+text-align: center;
+}
+
+</style>
+<div class="divpadding">
+<h3 class="padding1">division padding 20px</h3>
+<h3 class="padding1">padding of 10px</h3>
+<h3 class="padding1">padding of 10px</h3>
+</div>
+
+
+<h3>16.Adjust margin of an element</h3>
+<style>
+.divmargin
+{
+width: 200px;
+margin: 20px;
+Background-color: blue;
+padding: 2px;
+
+}
+.margin1
+{
+margin: 15px;
+padding: 10px;
+Background-color: white;
+text-align: center;
+}
+</style>
+<div class="divmargin">
+<h3 class="margin1">margin 5px</h3>
+<h3 class="margin1">margin 5px</h3>
+</div>
+<div class="divmargin">
+<h3 class="margin1">margin 5px</h3>
+<h3 class="margin1">margin 5px</h3>
+</div>
+
+<h3>17.negative margin</h3>
+
+<style>
+.negmardv
+{
+    Background-color: red;
+    width: 200px;
+    height: 100px;   
+    padding: 10px;
+    
+}
+.negmarhd
+{
+    Background-color: white;
+    margin: -10px;
+    border-style: solid;
+    padding: 10px;
+
+}
+</style>
+<div class="negmardv">
+    <h3 class="negmarhd">neg_margin</h3>
+    <h3 class="negmarhd">neg_margin</h3>
+    <h3 class="negmarhd">neg_margin</h3>
+</div>
+
+<h3>18.different padding on each side</h3>
+<style>
+.ind_pad_div
+{
+    Background-color: red;
+    width: 200px;
+    height: 100px;   
+    padding: 10px;
+    
+}
+.ind_pad_hd
+{
+    Background-color: white;
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 20px;
+
+}
+</style>
+<div class="ind_pad_div">
+    <h3 class="ind_pad_hd">neg_margin</h3>
+</div>
+
+<h3>19.different margin on each side</h3>
+<style>
+.ind_mar_div
+{
+    Background-color: red;
+    width: 200px;
+    height: 100px;   
+    padding: 10px;
+    
+}
+.ind_mar_hd
+{
+    Background-color: white;
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-top: -10px;
+    margin-bottom: 1px;
+    margin-left: 50px;
+    margin-right: -10px;
+
+}
+</style>
+<div class="ind_mar_div">
+    <h3 class="ind_mar_hd">neg_margin</h3>
+</div>
+
+<h3>20.clockwise notation for padding </h3>
+<style>
+.clknot_div
+{
+Background-color: red;
+    width: 200px;
+    height: 100px;   
+    padding: 10px;
+}
+.clknot_pad
+{
+    Background-color: white;
+    padding: 10px 2px 15px 100px;
+}
+</style>
+<div class="clknot_div">
+    <h5 class="clknot_pad">pad-top lf btm rig</h5>
+</div>
+
+<h3>21.clockwise notation for margin</h3>
+
+<style>
+.clknot_mar_div
+{
+Background-color: red;
+    width: 200px;
+    height: 100px;   
+    padding: 10px;
+}
+.clknot_mar_hd
+{
+    Background-color: white;
+    margin: -9px 30px 25px 10px;
+}
+</style>
+<div class="clknot_mar_div">
+    <h5 class="clknot_mar_hd">mar-top lf btm rig</h5>
+</div>
+
+<h3>22.attribute selector to style elements</h3>
+<style>
+.chkbx_margin_div
+{
+Background-color: green;    
+}
+[type='checkbox']
+{
+margin: 40px 20px 10px 100px;
+}
+</style>
+<div class="chkbx_margin_div">
+    <label for="checkbox">
+    <input type="checkbox">10px margin
+    </label>
+</div>
+
+<h3>23.absolute vs relative units</h3>
+<style>
+.relative_div
+{
+    Background-color:yellow;
+    width: 100em;
+}
+.relative_hd
+{
+    padding: 1em 2em 3em 40em;
+    border-style: solid;
+}
+</style>
+<div class="relative_div">
+<h5 class="relative_hd">padding: 1.5em</h5>
+</div>
+
+<h3>24.style html body element</h3>
+
+<style>
+body
+{
+    Background-color: orange;
+}
+</style>
+
+<h3>25.Inherit styles from the body element </h3>
+
+<style>
+body{
+    color: green;
+    font-family: monospace;
+}
+</style>
+
+<h3>26.Prioritize one style over another</h3>
+
+<style>
+.pink-text
+{
+    color: pink;
+}
+</style>
+
+<h1 class= "pink-text">Pink text</h1>
+
+<h3>27.Override Styles in Subsequent CSS</h3>
+<style>
+.blue-text
+{
+    color: blue;
+}
+</style>
+
+<h1 class="pink-text ">pink text</h1>
+<h1 class="pink-text blue-text">blue text</h1>
+
+<h3>28.Override Class Declarations by Styling ID Attributes</h3>
+<style>
+
+</style>
